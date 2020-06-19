@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testCases.TestCases">
+        <methods>
+          <include name="Test_Blank_UserName"/>
+          <include name="setup"/>
+          <include name="Test_Invalid_UserName"/>
+          <include name="Test_Signing_In_Appears_Correctly"/>
+          <include name="exit"/>
+          <include name="Test_Invalid_Password"/>
+          <include name="Test_Blank_Password"/>
+        </methods>
+      </class> <!-- testCases.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
